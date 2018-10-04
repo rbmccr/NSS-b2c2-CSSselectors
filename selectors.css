@@ -1,0 +1,55 @@
+header {
+  border: 1px solid goldenrod;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.disabled {
+  color: grey;
+}
+
+a.disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+section > div > div > div > div:nth-child(1) {
+  color: red;
+}
+
+section > div > div > div > div:nth-child(3) {
+  color: blue;
+}
+
+section > div > div > div > h4:nth-of-type(1) {
+  background-color: red;
+}
+
+section > div > div > div > h4:nth-of-type(2) {
+  background-color: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.promo {
+  color: gold;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  height: 25px;
+}
